@@ -1,0 +1,7 @@
+.venv/
+dsgdb9nsd.xyz/
+*.tar.gz
+*.tar
+*.xyz
+__pycache__/
+
