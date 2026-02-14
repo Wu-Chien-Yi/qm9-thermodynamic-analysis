@@ -1,7 +1,16 @@
+# 忽略 Python 環境相關
 .venv/
+__pycache__/
+*.py[cod]
+
+# 忽略大型數據檔 (避免傳到 GitHub)
+data/
 dsgdb9nsd.xyz/
+*.csv
+*.sdf
 *.tar.gz
 *.tar
 *.xyz
-__pycache__/
 
+# 忽略系統檔案
+.DS_Store
